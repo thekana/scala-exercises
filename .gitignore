@@ -185,3 +185,5 @@ LOG_DIR_IS_UNDEFINED/
 
 .idea
 .sbtopts
+.bsp
+.vscode
