@@ -166,3 +166,22 @@ hs_err_pid*
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,intellij,metals,visualstudiocode,scala
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+LOG_DIR_IS_UNDEFINED/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+.idea
+.sbtopts
