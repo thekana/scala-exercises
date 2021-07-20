@@ -1,7 +1,8 @@
-import ex02.ReverseStringQueue
+package ex02
+
 import org.scalatest.flatspec.AnyFlatSpec
 
-class Ex02Spec extends AnyFlatSpec {
+class ReverseStringQueueSpec extends AnyFlatSpec {
   val q = new ReverseStringQueue
   it should "work as reverse string queue" in {
     q.put("hello")

@@ -1,7 +1,8 @@
-import ex01.StringQueueImpl
+package ex01
+
 import org.scalatest.flatspec.AnyFlatSpec
 
-class Ex01Spec extends AnyFlatSpec {
+class GenericQueueSpec extends AnyFlatSpec {
   val q = new StringQueueImpl
   it should "work as normal queue" in {
     q.put("hello")
